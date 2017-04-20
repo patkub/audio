@@ -5,7 +5,7 @@ ScrollLock::
     if toggle
         ControlSend,SysListView321,{Down 1} ; This number selects the matching audio device in the list, change it accordingly 
     Else
-        ControlSend,SysListView321,{Down 3} ; This number selects the matching audio device in the list, change it accordingly 
+        ControlSend,SysListView321,{Down 2} ; This number selects the matching audio device in the list, change it accordingly 
     ControlClick,&Set Default ; Change "&Set Default" to the name of the button in your local language 
     ControlClick,OK
 return
